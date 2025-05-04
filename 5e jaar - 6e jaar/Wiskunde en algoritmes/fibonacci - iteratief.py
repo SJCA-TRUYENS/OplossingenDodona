@@ -11,9 +11,10 @@ if nummer == 2:
 
 while aantal < nummer:
     aantal += 1
-    tijdelijk = kleinste
+    som = kleinste + grootste
     kleinste = grootste
-    grootste = tijdelijk + grootste
+    grootste = som
+    
 
 antwoord = grootste
 print("Het " + str(nummer) + "e getal uit de rij van Fibonacci is", antwoord)
