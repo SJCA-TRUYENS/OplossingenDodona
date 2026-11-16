@@ -18,7 +18,9 @@ while c < testwaarde:
     
     teller += 1
 
-if c == testwaarde:
+if testwaarde == 1:
+    print("1 of 2")
+elif c == testwaarde:
     print(teller)
 else:
     print("Geen getal uit de reeks van Fibonacci!")
